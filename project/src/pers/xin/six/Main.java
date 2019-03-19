@@ -37,8 +37,14 @@ public class Main {
             count = i;
             int minIndex = i;
             for (j = i + 1; j < list.length; j++) {
-                min = (min.compareTo(list[j]) > 0) ? list[j] : min;
-                minIndex = j;
+                //应该只有当前遍历的元素比minIndex小的时候才更新下标
+                /*min = (min.compareTo(list[j]) > 0) ? list[j] : min;
+                minIndex = j;*/
+                if(min.compareTo(list[j]) > 0){
+                    min = list[j];
+                    minIndex = j;
+                }
+
             }
             if (count != minIndex) {
                 change(list, count, minIndex);
