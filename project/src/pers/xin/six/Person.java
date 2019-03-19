@@ -1,4 +1,4 @@
-package six;
+package pers.xin.six;
 
 public class Person implements Comparable<Person> {
     private int age;

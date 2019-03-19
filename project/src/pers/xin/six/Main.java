@@ -1,4 +1,4 @@
-package six;
+package pers.xin.six;
 
 import java.util.ArrayList;
 import java.util.Arrays;
