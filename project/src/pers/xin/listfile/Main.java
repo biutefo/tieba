@@ -14,7 +14,7 @@ public class Main {
 		//1、
 		checkDir();
 		//2、
-		String filePath = "C:\\Users\\BG387379\\Desktop\\";//filePath windows下分割符号为双反斜杠“\\”
+		String filePath = "你要显示的文件夹的根目录";//filePath windows下分割符号为双反斜杠“\\”
 		print(filePath);
 		//3、
 		List<File> fileList = getFileList(filePath);
